@@ -1,8 +1,8 @@
-import { createStore, combineReducers } from "redux";
-import { planDetailsReducer } from "./plan-detail";
+import { createStore, combineReducers } from 'redux';
+import { planDetailsReducer } from './plan-detail';
 
 const reducers = combineReducers({
-  planDetails: planDetailsReducer,
+    planDetails: planDetailsReducer,
 });
 
 export const store = createStore(reducers);

@@ -1,15 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
-import InputArea from "./components/input-area";
-import PlanSelector from "./components/plan-selector";
+import './App.css';
+import { InputAreaContainer } from './container/InputArea';
+import { PlanSelectorContainer } from './container/PlanSelector';
 
 function App() {
-  return (
-    <div>
-      <InputArea />
-      <PlanSelector />
-    </div>
-  );
+    return (
+        <div>
+            <InputAreaContainer />
+            <PlanSelectorContainer />
+        </div>
+    );
 }
 
 export default App;
